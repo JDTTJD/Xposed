@@ -22,7 +22,7 @@ public class XmlParser {
             xmlPullParser.setInput(inputStream, "UTF-8");
             int eventType = xmlPullParser.getEventType();
             while (eventType != XmlPullParser.END_DOCUMENT) {
-
+                //待完成
             }
         } catch (XmlPullParserException e) {
             e.printStackTrace();
